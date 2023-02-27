@@ -34,6 +34,8 @@ namespace DesignPatterns
 
         }
     }
+
+    #region "Product Filter Class implementation"
     public class ProductFilter
     {
         /// <summary>
@@ -87,6 +89,9 @@ namespace DesignPatterns
             }
         }
     }
+
+    #endregion
+
     #region "Interface Implementation on Filters"
 
     public interface ISpecification<T>
